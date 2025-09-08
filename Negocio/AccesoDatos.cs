@@ -23,7 +23,7 @@ namespace Negocio
 
         public AccesoDatos() 
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=POKEDEX_DB; integrated security=true");
+            conexion = new SqlConnection("");
             comando = new SqlCommand();
         }
         
